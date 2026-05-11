@@ -1,0 +1,75 @@
+body{background-color: rgb(119, 119, 119);
+    font-family: "Playfair Display", serif;
+    color: rgb(88, 20, 20);
+}
+
+#lamarckismo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#darwinismo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bloco{display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+       align-items: center;
+      }
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(113, 133, 121);
+    padding: 20px;
+    border: 0,5vw;
+
+    margin: auto;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(145, 142, 111);
+    padding: 20px;
+    border: 0,5vw;
+
+  
+    margin: auto;
+}
+
+.bloco3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(145, 142, 111);
+    padding: 20px;
+    border: 0,5vw;
+    justify-content: center;
+    height: 1800px;
+    margin: auto;
+}
+
+h1{color: rgb(146, 80, 27);
+    text-decoration: underline;
+}
+
+h2{color: rgb(39, 51, 85);
+    text-decoration-line: underline;
+}
+
+div{
+    border: 3px solid rgb(77, 40, 40);
+}
+
+.topo{
+    display: block;
+    width: 100%;
+}
